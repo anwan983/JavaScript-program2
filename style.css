@@ -1,0 +1,74 @@
+
+body{
+    margin:0;
+    height: 100vh;
+    background-image: url('img/people-2594683_960_720.jpg');
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: cover;
+    font-family: 'Abril Fatface', cursive;
+    color: black;  
+    font-size: 18px;
+}
+section {
+width: 40%;
+background-color: rgba(0,0,0,0.3);
+filter: alpha(opacity=50);
+margin-left: 10px;
+}
+
+h1{
+    font-size: 45px;
+    margin:20px;
+    color:black;   
+}
+
+label {
+    margin-left:10px;
+}
+
+#pole_1,
+#pole_3,
+#pole_5,
+#pole_6 {
+    margin:10px;
+    height:25px;
+    width: 20%;
+    padding:3px;
+    border:3px solid #fb0102;
+}
+
+#pole_4,
+#pole_7 {
+    height: 30px;
+    width: 87%;
+    margin:10px;
+    padding:3px;
+    border:3px solid #fb0102
+}
+
+#submit1 {
+    margin:10px;
+    height: 35px;
+    width: 89%;
+    background-color: #fb0102;
+    border:none;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+}
+
+#submit2 {
+    margin:10px;
+    height: 35px;
+    width: 89%;
+    background-color: #fb0102;
+    border:none;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+}
+
+#submit1:hover,
+#submit2:hover {
+   color: #fb0102;
+    background-color: black;
+}

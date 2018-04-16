@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+    <title>Simple shopping calculator</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Simple shopping calculator</h1>
+    </header>
+    <br>
+    <section id="first-form">
+        <input type="number" id="pole_4" placeholder="Tyle zapłacisz za zakupy"> <br>
+        <input type="submit" id="submit1" value="Oblicz wynik działania" onclick="wynik()"><br>
+        <label for="pole_1">Kwota 1:</label>
+        <input type="number" id="pole_1" placeholder="np.249,99">
+        <select id="pole_2">
+            <option value="+" checked> + </option>
+            <option value="-"> - </option>
+            <option value="*"> * </option>
+            <option value="/"> / </option>
+        </select>
+        <label for="pole_3">Kwota 2:</label>
+        <input type="number" id="pole_3" placeholder="np.69,99">
+    </section>
+    <br><br>
+    <section id="second-form">
+        <input type="number" id="pole_7" placeholder="Tyle zapłacisz po obniżce"> <br>
+        <input type="submit" id="submit2" value="Oblicz ile zapłacisz po obniżce" onclick="wynikProcentow()"><br>
+        <label for="pole_5">Cena: </label>
+        <input type="number" id="pole_5" placeholder="np.149,99">
+        <label for="pole_6">ile % obniżki:</label>
+        <input type="number" id="pole_6" placeholder="np.15">
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
